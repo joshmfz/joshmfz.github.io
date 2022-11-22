@@ -9,9 +9,14 @@ html{
 
 body{
     font-family: 'Asap', sans-serif;
+    /* color: aliceblue;
+    background: rgb(196, 200, 204); */
+    
     color: aliceblue;
-    background: rgb(196, 200, 204);
+    background: rgb(0, 0, 35);
+
     margin: 0;
+    
 }
 
 
@@ -21,17 +26,25 @@ body{
 
 */
   
+.main-menu{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.5);
+}
 
+#logobunny{
+    height: 60px;
+    width: 120px;
+    
+}
 
 ul{
+    position: static;
     background: rgb(196, 200, 204);
     color: aliceblue;
     list-style-type: none;
     margin: 0;    padding: 0;
-    overflow: hidden;
     box-sizing: content-box;   
-    border-bottom: 1px solid rgba(0, 255, 255, 0.5);
-    position: fixed;
     top: 0;
     width: 100%;
 }
@@ -39,10 +52,15 @@ ul{
   
 li{ 
     float: left;    
+    border-left: 1px solid #bbb;
     border-right: 1px solid #bbb;
-    /* padding: 10px; */
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-  
+
+li:hover{background-color: rgb(75, 0, 75);}
+
 li a{
     display: block;
     color: aliceblue;
@@ -51,7 +69,6 @@ li a{
     text-decoration: none;
 }
   
-li a:hover{    background-color: rgb(75, 0, 75);    }
 
 
 /* 
@@ -60,9 +77,15 @@ li a:hover{    background-color: rgb(75, 0, 75);    }
 
 */
 
-#start-page{
-    margin-top: 56px;
+#container{
+    width: 70%; height: 80%;
+    padding: 1em;
+    text-align: center;
+    border: 1px #bbb solid;
+    margin: 0 auto;
+    margin-top: 60px;
 }
+
 
 .juniger-one{
     display: flex;
