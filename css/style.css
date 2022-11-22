@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+html{
+    font-family: 'Asap';
+    font-size: 14px;
+    line-height: 28px;
+    height: 100%;
+}
+
+body{
+    font-family: 'Asap', sans-serif;
+    color: aliceblue;
+    background: rgb(196, 200, 204);
+    margin: 0;
+}
+
+
+/* 
+
+    Navbar
+
+*/
+  
+
+
+ul{
+    background: rgb(196, 200, 204);
+    color: aliceblue;
+    list-style-type: none;
+    margin: 0;    padding: 0;
+    overflow: hidden;
+    box-sizing: content-box;   
+    border-bottom: 1px solid rgba(0, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+  
+li{ 
+    float: left;    
+    border-right: 1px solid #bbb;
+    /* padding: 10px; */
+}
+  
+li a{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover{    background-color: rgb(75, 0, 75);    }
+
+
+/* 
+
+    HOME
+
+*/
+
+#start-page{
+    margin-top: 56px;
+}
+
+.juniger-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    max-width: 570px;    max-height: 180px;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+/* 
+
+    DARK MODE COLORS 
+
+*/
+
+.oscuro{ 
+    background: rgb(0, 0, 35);
+    color: aliceblue;
+}
+
+/* 
+
+    Navbar
+
+*/
+
+.oscuro .btn-dark{
+    color: rgb(15, 7, 0);
+    border-color: rgb(0, 0, 35);
+    background-color: rgb(255, 255, 255); 
+    transition: 0.3s;
+}
+
+.oscuro .btn-dark:hover{
+    border-color: rgb(0, 255, 255);
+    transition: 0.3s;
+}
+
+.oscuro ul{ 
+    background: rgb(0, 0, 35);
+    color: aliceblue;
+}
