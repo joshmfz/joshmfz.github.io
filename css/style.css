@@ -52,8 +52,8 @@ ul{
   
 li{ 
     float: left;    
-    border-left: 1px solid #bbb;
-    border-right: 1px solid #bbb;
+    border-left: 1px solid rgba(0, 255, 255, 0.5);
+    border-right: 1px solid rgba(0, 255, 255, 0.5);
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
